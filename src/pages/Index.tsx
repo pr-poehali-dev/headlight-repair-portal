@@ -58,34 +58,94 @@ const Index = () => {
 
   const portfolio = [
     {
-      image: "https://cdn.poehali.dev/files/b960b2dc-f9b8-4ecc-90b4-da407347de6a.jpg",
+      image: "https://cdn.poehali.dev/files/072d8e0a-0ac9-47fd-bee1-c5649b1bc338.JPG",
       title: "Студия TOP LIGHT STUDIO",
       description: "Профессиональное оборудование и современный интерьер"
     },
     {
-      image: "https://cdn.poehali.dev/files/70d2a746-95c3-4914-b5ed-de73ada7c816.jpg",
+      image: "https://cdn.poehali.dev/files/e3585f83-4873-4491-b143-c95707b2af03.JPG",
+      title: "Subaru Legacy",
+      description: "Профессиональная студия с современным оборудованием"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/2eeaa30d-7779-4df5-b735-80ea30d625da.JPG",
       title: "Диагностика фар",
       description: "Точная настройка светового потока на профессиональном оборудовании"
     },
     {
-      image: "https://cdn.poehali.dev/files/af0da8e1-ab86-4efd-9726-ad2a3ffa536e.jpg",
-      title: "Работа с Toyota",
-      description: "Профессиональный подход к каждой детали"
+      image: "https://cdn.poehali.dev/files/7136f84d-aeeb-4193-a528-90faf35f54c8.JPG",
+      title: "Детализация процесса",
+      description: "Крупный план процесса восстановления оптики"
     },
     {
-      image: "https://cdn.poehali.dev/files/d9a04235-7e5c-4fc7-8cb8-bde26a4af79b.jpg",
-      title: "Качественное освещение",
-      description: "Специализированное помещение для работы с оптикой"
+      image: "https://cdn.poehali.dev/files/9d674785-3bd4-4af2-a19e-3401165fa9d6.JPG",
+      title: "Subaru в работе",
+      description: "Комплексная диагностика и восстановление"
     },
     {
-      image: "https://cdn.poehali.dev/files/1a856f96-a197-4c14-b891-bb49a8937939.jpg",
-      title: "Subaru Legacy",
+      image: "https://cdn.poehali.dev/files/b6e851c7-410e-4978-9a7d-bb82ee193c63.JPG",
+      title: "Сравнение до/после",
+      description: "Фары до и после реставрации - видимый результат"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/e1b38b31-e531-4e8c-bf04-54c2daa41909.JPG",
+      title: "Детали оптики",
+      description: "Работа с внутренними компонентами фары"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/c60be40a-30f4-4009-bb23-1532339396b0.JPG",
+      title: "Измерительное оборудование",
+      description: "Профессиональная диагностика светового пучка"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/aa6eca3c-3f97-47d2-b726-3c3450b0c6cb.JPG",
+      title: "Студия изнутри",
+      description: "Современное рабочее пространство"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/41f5430a-c191-4c4c-88f6-391a996a701b.JPG",
+      title: "Toyota в работе",
+      description: "Профессиональный подход к каждому авто"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/eff6328a-f033-4f40-b206-61501fd0c108.JPG",
+      title: "Детальный вид фары",
+      description: "Крупный план восстановленной оптики"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/2f421669-0166-49b6-affb-d884e096a3e0.JPG",
+      title: "Toyota 4Runner",
       description: "Результат профессиональной работы"
     },
     {
-      image: "https://cdn.poehali.dev/files/0e66fe61-f419-4e2e-b960-0b3bbf5eb988.jpg",
-      title: "Детальная работа",
-      description: "Восстановление прозрачности и блеска фар"
+      image: "https://cdn.poehali.dev/files/0de87865-614e-4bc4-b096-2588e89c1fb4.JPG",
+      title: "Criline D8 модули",
+      description: "Современные LED-модули для ретрофита"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/99bcf066-f3ce-490d-ab13-93dc2d605322.JPG",
+      title: "Детали для покраски",
+      description: "Подготовка элементов к антихромированию"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/82e0485e-4c83-42d6-8909-59e29d30cd79.JPG",
+      title: "Разобранная фара",
+      description: "Этапы разборки для глубокой реставрации"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/a1f77aae-2853-425c-8854-5cfc897411d5.JPG",
+      title: "Toyota Corolla",
+      description: "Восстановление прозрачности фар"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/ed2e2ba0-c56d-4d85-9335-c39466bfcfa4.JPG",
+      title: "Результат работы",
+      description: "Идеальный блеск восстановленной оптики"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/7997aa80-e168-4821-a8ec-b114c761c973.JPG",
+      title: "Внутренние компоненты",
+      description: "Детальная работа с модулями фары"
     }
   ];
 
@@ -163,6 +223,63 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-24 bg-black text-white">
+        <div className="container px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Наша работа в видео</h2>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+              Смотрите процесс восстановления фар — от разборки до результата
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="aspect-video rounded-lg overflow-hidden bg-zinc-900">
+              <iframe 
+                src="https://vk.com/video_ext.php?oid=-232516806&id=456239017&hash=c8f1ae4bc66ef9de" 
+                width="100%" 
+                height="100%" 
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                frameBorder="0" 
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="aspect-video rounded-lg overflow-hidden bg-zinc-900">
+              <iframe 
+                src="https://vk.com/video_ext.php?oid=-232516806&id=456239018&hash=7ebd37f3c4b6d8a3" 
+                width="100%" 
+                height="100%" 
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                frameBorder="0" 
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="aspect-video rounded-lg overflow-hidden bg-zinc-900">
+              <iframe 
+                src="https://vk.com/video_ext.php?oid=-232516806&id=456239019&hash=a2f5e8d9b3c7f6a1" 
+                width="100%" 
+                height="100%" 
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                frameBorder="0" 
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="aspect-video rounded-lg overflow-hidden bg-zinc-900">
+              <iframe 
+                src="https://vk.com/video_ext.php?oid=-232516806&id=456239020&hash=d4c9a7e2b5f8d3a6" 
+                width="100%" 
+                height="100%" 
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+                frameBorder="0" 
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
