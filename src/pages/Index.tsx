@@ -280,7 +280,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Адрес</h3>
-                    <p className="text-muted-foreground">г. Москва, ул. Примерная, д. 123</p>
+                    <p className="text-muted-foreground">г. Новосибирск, ул. Волочаевская, д. 49 к1</p>
                   </div>
                 </CardContent>
               </Card>
