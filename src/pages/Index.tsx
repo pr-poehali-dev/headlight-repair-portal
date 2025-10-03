@@ -78,7 +78,7 @@ const Index = () => {
         <div className="container flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
             <Icon name="Lightbulb" className="text-primary" size={28} />
-            <span className="text-xl font-bold">Ремонт Фар</span>
+            <span className="text-xl font-extrabold">Top Light Studio</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Услуги</a>
