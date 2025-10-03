@@ -58,19 +58,34 @@ const Index = () => {
 
   const portfolio = [
     {
-      image: "/img/9aa2f675-593b-448a-9c96-5da60edd8853.jpg",
-      title: "BMW X5 2018",
-      description: "Полировка передних фар"
+      image: "https://cdn.poehali.dev/files/b960b2dc-f9b8-4ecc-90b4-da407347de6a.jpg",
+      title: "Студия TOP LIGHT STUDIO",
+      description: "Профессиональное оборудование и современный интерьер"
     },
     {
-      image: "/img/7d965f08-5899-48cf-ae22-c554cdfe33a9.jpg",
-      title: "Mercedes-Benz E-Class",
-      description: "Восстановление оптики"
+      image: "https://cdn.poehali.dev/files/70d2a746-95c3-4914-b5ed-de73ada7c816.jpg",
+      title: "Диагностика фар",
+      description: "Точная настройка светового потока на профессиональном оборудовании"
     },
     {
-      image: "/img/1c29db96-bcd2-4589-9f98-6e718e071ee0.jpg",
-      title: "Audi Q7",
-      description: "Защитное покрытие"
+      image: "https://cdn.poehali.dev/files/af0da8e1-ab86-4efd-9726-ad2a3ffa536e.jpg",
+      title: "Работа с Toyota",
+      description: "Профессиональный подход к каждой детали"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/d9a04235-7e5c-4fc7-8cb8-bde26a4af79b.jpg",
+      title: "Качественное освещение",
+      description: "Специализированное помещение для работы с оптикой"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/1a856f96-a197-4c14-b891-bb49a8937939.jpg",
+      title: "Subaru Legacy",
+      description: "Результат профессиональной работы"
+    },
+    {
+      image: "https://cdn.poehali.dev/files/0e66fe61-f419-4e2e-b960-0b3bbf5eb988.jpg",
+      title: "Детальная работа",
+      description: "Восстановление прозрачности и блеска фар"
     }
   ];
 
@@ -136,7 +151,7 @@ const Index = () => {
               Специализируемся исключительно на автосвете. Используем только качественные материалы известных брендов
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
               <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
                 <CardContent className="p-6">
@@ -160,7 +175,7 @@ const Index = () => {
               Примеры выполненных работ — результат, который говорит сам за себя
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {portfolio.map((item, index) => (
               <Card key={index} className="overflow-hidden group hover:shadow-xl transition-all duration-300">
                 <div className="relative overflow-hidden h-64">
